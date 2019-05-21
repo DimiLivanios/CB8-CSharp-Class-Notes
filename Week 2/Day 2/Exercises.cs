@@ -67,11 +67,11 @@ namespace ClassExamples
                                         * We can also write this as (!bool1 && !bool2)
                                         */
                     Console.WriteLine(one + two);
-                else if (!(bool1 && bool2)) // If at least one is false (if they are not true at the same time)
+                if (!(bool1 && bool2)) // If at least one is false (if they are not true at the same time)
                     Console.WriteLine(one - two);
-                else if (!bool1 && one > 5)
+                if (!bool1 && one > 5)
                     Console.WriteLine(one * two);
-                else if (bool2 && (((one + two) > 45) && ((one % two) == 0)))
+                if (bool2 && (((one + two) > 45) && ((one % two) == 0)))
                     Console.WriteLine("Something");
 
                 //Console.ReadKey();
