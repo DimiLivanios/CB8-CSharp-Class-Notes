@@ -1,10 +1,9 @@
 using System;
-
 namespace ClassExamples
 {
     class Basics
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             // Have to declare data type. Can declare many variables' types in same function
             int Number = 0, Number1 = 1;
