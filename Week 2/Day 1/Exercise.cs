@@ -1,5 +1,4 @@
 using System;
-
 namespace Exercise
 {
     class TakeData
