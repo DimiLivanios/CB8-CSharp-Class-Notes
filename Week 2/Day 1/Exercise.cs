@@ -26,6 +26,7 @@ namespace Exercise
             Console.WriteLine("Hello " + FirstName + " " + LastName+"!");
             Console.WriteLine("You live in " + City+"!");
             
+           //Console.Readkey()
         }
     }
 }
