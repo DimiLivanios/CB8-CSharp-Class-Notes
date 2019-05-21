@@ -62,21 +62,17 @@ namespace ClassExamples
                 else
                     bool2 = false;
 
-                // Initialize output variable
-                int output;
-
                 // Outputs for exercise
-                if ((bool1 && bool2) == false)
-                    output = one + two;
-                else if ((bool1 || bool2) == false)
-                    output = one - two;
-                else if ((bool1 == false) && one > 5)
-                    output = one * two;
-                else if ((bool2 == true) && (((one + two) > 45) && ((one % two) == 0)))
-                    output = "Something";
-                
-                Console.WriteLine(output)
-                //Console.Readkey();
+                if (!(bool1 || bool2)) // If both are false (i.e. neither [not one or the other] is true)
+                    Console.WriteLine(one + two);
+                else if (!(bool1 && bool2)) // If at least one is false (if they are not true at the same time)
+                    Console.WriteLine(one - two);
+                else if (!bool1 && one > 5)
+                    Console.WriteLine(one * two);
+                else if (bool2 && (((one + two) > 45) && ((one % two) == 0)))
+                    Console.WriteLine("Something");
+
+                //Console.ReadKey();
             }
         }
     }
