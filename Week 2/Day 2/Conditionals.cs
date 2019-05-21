@@ -21,6 +21,8 @@ namespace ClassExamples
                 // Two additional ways to write in console
                 Console.WriteLine("What's up, {0} {1}?", name, "(Surname)");
                 Console.WriteLine($"Your name is {name} {"(Surname)"}"); // This is called string interpolation
+                
+                //Console.ReadKey()
             }
         }
     }
