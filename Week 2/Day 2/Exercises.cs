@@ -63,7 +63,9 @@ namespace ClassExamples
                     bool2 = false;
 
                 // Outputs for exercise
-                if (!(bool1 || bool2)) // If both are false (i.e. neither [not one or the other] is true)
+                if (!(bool1 || bool2)) /* If both are false (i.e. neither [not one or the other] is true)
+                                        * can also write this as (!bool1 && !bool2)
+                                        */
                     Console.WriteLine(one + two);
                 else if (!(bool1 && bool2)) // If at least one is false (if they are not true at the same time)
                     Console.WriteLine(one - two);
