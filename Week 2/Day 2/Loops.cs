@@ -15,7 +15,8 @@ namespace ClassExamples
             int number2 = int.Parse(Console.ReadLine());
 
             int number1 = int.Parse(Console.ReadLine());
-
+            
+            // Assign a new Random() method to the rand variable using the Random class
             Random rand = new Random();
 
             // Different ways to add to a variable
@@ -73,7 +74,7 @@ namespace ClassExamples
                     Console.WriteLine("You lose!");
             }
 
-            // Undefined loop iterations
+            // Undefined loop iterations (Play till you win)
             Console.WriteLine("Please insert a number");
             int number2 = int.Parse(Console.ReadLine());
             while (number2 != rand.Next(1, 7)) 
