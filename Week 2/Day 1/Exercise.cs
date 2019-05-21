@@ -1,6 +1,6 @@
 using System;
 
-namespace FullName
+namespace Exercise
 {
     class TakeData
     {
