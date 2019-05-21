@@ -1,8 +1,7 @@
-﻿using System;
+using System;
 namespace ClassExamples
 {
     class Exercise1
-
     {
         static void Main(string[] args)
         {
@@ -27,6 +26,8 @@ namespace ClassExamples
                 Console.WriteLine("You're underage");
             else
                 Console.WriteLine("You're a young adult");
+            
+            //Console.Readkey();
         }
 
 
@@ -40,14 +41,15 @@ namespace ClassExamples
             static void Main(string[] args)
             {
                 // Ask for two numbers
-                Console.WriteLine("Please input two numbers:");
+                Console.WriteLine("Please insert a number:");
                 int one = int.Parse(Console.ReadLine());
+                Console.WriteLine("Please insert a second number:");
                 int two = int.Parse(Console.ReadLine());
 
                 // Initialize two booleans
                 bool bool1, bool2;
 
-                // Generate booleans
+                // Generate random booleans (this is my code we didnt do this in class)
                 Random rand = new Random();
                 int random = rand.Next(0, 1);
                 if (random == 1)
@@ -65,22 +67,16 @@ namespace ClassExamples
 
                 // Outputs for exercise
                 if ((bool1 && bool2) == false)
-                {
                     output = one + two;
-                    Console.WriteLine(output);
-                }
                 else if ((bool1 || bool2) == false)
-                {
                     output = one - two;
-                    Console.WriteLine(output);
-                }
                 else if ((bool1 == false) && one > 5)
-                {
                     output = one * two;
-                    Console.WriteLine(output);
-                }
                 else if ((bool2 == true) && (((one + two) > 45) && ((one % two) == 0)))
-                    Console.WriteLine("Something");
+                    output = "Something";
+                
+                Console.WriteLine(output)
+                //Console.Readkey();
             }
         }
     }
