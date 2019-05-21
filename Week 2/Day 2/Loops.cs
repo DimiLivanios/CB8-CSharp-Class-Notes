@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
 namespace ClassExamples
 {
-    public class Loops
+    class Loops
     {
         static void Main(string[] args)
         {
