@@ -7,9 +7,8 @@ namespace ClassExamples
         static void Main(string[] args)
         {
             Console.Write("Insert a number: ");
-
             // Cannot assign string to int
-            int number = Console.ReadLine();
+            int number = Console.ReadLine(); // Produces error
 
             // Two ways to input string as number
             int number1 = Convert.ToInt32(Console.ReadLine());
