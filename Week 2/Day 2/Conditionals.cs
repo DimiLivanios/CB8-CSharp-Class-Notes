@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Conditionals
+namespace ClassExamples
 {
-    class Program
+    class Conditionals
     {
         static void Main(string[] args)
         {
