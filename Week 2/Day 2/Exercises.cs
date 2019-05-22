@@ -1,5 +1,5 @@
 using System;
-namespace ClassExamples
+namespace Day2
 {
     class Exercise1
     {
