@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 namespace Day3
 {
-    public class MoreLoops
+    class MoreLoops
     {
         static void Main(string[] args)
         {
@@ -30,7 +30,9 @@ namespace Day3
             {
 
             }
-            //Console.Readkey()
+            
+            // This is equivalent to
+            for(; ; )
         }
     }
 }
