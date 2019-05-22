@@ -5,29 +5,29 @@ namespace Day3
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Pick a number (1-6): ");
-            //int number = int.Parse(Console.ReadLine());
+            Console.WriteLine("Pick a number (1-6): ");
+            int number = int.Parse(Console.ReadLine());
 
-            //Random dice = new Random();
-            //if (dice.Next(1, 7) == number)
-            //    Console.WriteLine("You win");
-            //else
-            //    Console.WriteLine("You lose");
+            Random dice = new Random();
+            if (dice.Next(1, 7) == number)
+                Console.WriteLine("You win");
+            else
+                Console.WriteLine("You lose");
 
-            //Console.WriteLine("Want to play again? (y/n)");
-            //string answer = Console.ReadLine();
+            Console.WriteLine("Want to play again? (y/n)");
+            string answer = Console.ReadLine();
 
-            //while (answer == "y") ;
-            //{
-            //    Console.WriteLine("Pick a number (1-6): ");
-            //    number = int.Parse(Console.ReadLine());
-            //    if (dice.Next(1, 7) == number)
-            //        Console.WriteLine("You win");
-            //    else
-            //        Console.WriteLine("You lose");
-            //    Console.WriteLine("Want to play again? (y/n)");
-            //    answer = Console.ReadLine();
-            //}
+            while (answer == "y") ;
+            {
+                Console.WriteLine("Pick a number (1-6): ");
+                number = int.Parse(Console.ReadLine());
+                if (dice.Next(1, 7) == number)
+                    Console.WriteLine("You win");
+                else
+                    Console.WriteLine("You lose");
+                Console.WriteLine("Want to play again? (y/n)");
+                answer = Console.ReadLine();
+            }
 
             /* As you will notice above, we have repetition of code. We can instead
              * initialize an answer and avoid repetition
@@ -78,7 +78,7 @@ namespace Day3
                 answer = Console.ReadLine();
             } while (answer == "y");
             /* We can instead write while (Console.ReadLine() == "y") and delete
-             * the assignment of answer within the block   
+             * the assignment of answer within the block and the need for initialization   
              */
 
             //Console.ReadKey()
