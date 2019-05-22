@@ -1,7 +1,7 @@
 using System;
-namespace Exercise
+namespace Day1
 {
-    class TakeData
+    class Exercise
     {
        static void Main()
         {
