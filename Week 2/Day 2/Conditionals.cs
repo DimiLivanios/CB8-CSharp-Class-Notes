@@ -1,5 +1,5 @@
-﻿using System;
-namespace ClassExamples
+using System;
+namespace Day2
 {
     class Conditionals
     {
