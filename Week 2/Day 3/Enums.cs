@@ -53,6 +53,7 @@ namespace Enums
                     Console.WriteLine("Wrong Input");
                     break;
             }
+            //Console.Readkey()
         }
     }
 }
