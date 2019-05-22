@@ -3,7 +3,7 @@ namespace Day3
 {
     class Switch
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Please insert a number from 1-7");
             int number = int.Parse(Console.ReadLine());
