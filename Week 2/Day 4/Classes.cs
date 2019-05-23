@@ -1,4 +1,6 @@
-
+using System;
+namespace Day4
+{
     class Classes
     {
         static void Main(string[] args)
@@ -51,7 +53,7 @@
             dice3.Roll();
             Console.WriteLine(dice3.Number);
 
-
+            //Console.ReadKey();
         }
     }
 
