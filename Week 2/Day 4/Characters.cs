@@ -5,10 +5,10 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-            // We use single '' to render characters. Strings are arrays of characters
+      // We use single '' to render characters. Strings are arrays of characters
             char char1 = 'a';
 
-            // Every character has a corresponding integer value, depending on encoding
+     // Every character has a corresponding integer value, depending on encoding
             Console.WriteLine((int)char1); // Prints out 97
 
             // Likewise, we can cast an integer into a character
@@ -19,7 +19,9 @@ namespace Day4
             /* The forward slash in this case is called an escape character.
              * An escape character modifies a following string or character's
              * function (in this case n is not 'n' but a line change).
-             */            
+             */         
+
+             //Console.ReadKey();   
         }
     }
 }
