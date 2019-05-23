@@ -1,5 +1,5 @@
 using System;
-namespace Day2
+namespace ClassExamples
 {
     class Conditionals
     {
@@ -11,19 +11,20 @@ namespace Day2
             bool b = true;
             bool c = false;
 
-            if(name == "Computer")
+            if (name == "Computer")
                 // One line of code in conditional doesn't need curly brackets
                 Console.WriteLine("We have the same name!");
             else
-                // Multiple lines of code need curly brackets to group conditional block
+        // Multiple lines of code need curly brackets to group conditional block
             {
                 Console.WriteLine("Hello, " + name);
                 // Two additional ways to write in console
                 Console.WriteLine("What's up, {0} {1}?", name, "(Surname)");
-                Console.WriteLine($"Your name is {name} {"(Surname)"}"); // This is called string interpolation
-                
-                //Console.ReadKey()
+                Console.WriteLine($"Your name is {name} {"(Surname)"}");
+                // This is called string interpolation
             }
+
+            //Console.ReadKey();
         }
     }
 }
