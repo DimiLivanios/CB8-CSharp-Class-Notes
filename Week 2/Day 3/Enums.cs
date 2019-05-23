@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Enums
 {
 /* There is a data type called enum which allows us to allocate an item/object 
@@ -53,7 +53,8 @@ namespace Enums
                     Console.WriteLine("Wrong Input");
                     break;
             }
-            //Console.Readkey()
+
+            //Console.ReadKey()
         }
     }
 }
