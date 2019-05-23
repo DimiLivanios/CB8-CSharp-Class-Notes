@@ -11,7 +11,7 @@ namespace Day3
                 if (i % 2 != 0)
                     continue;
 
-                /* Break will stop the loop. But given we have reached 
+                /* Break will stop the iteration. But given we have reached 
                  * continue above the code below is skipped
                  */
                 if (i == 51)
@@ -30,9 +30,11 @@ namespace Day3
             {
 
             }
-            
+
             // This is equivalent to
             for(; ; )
+
+            //Console.ReadKey();
         }
     }
 }
