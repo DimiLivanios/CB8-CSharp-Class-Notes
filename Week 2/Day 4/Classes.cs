@@ -1,6 +1,4 @@
-using System;
-namespace Day4
-{
+
     class Classes
     {
         static void Main(string[] args)
@@ -47,10 +45,10 @@ namespace Day4
              * we once again get the issue in (8).
              */
             Dice2 dice3 = new Dice2();
-            dice2.Roll();
+            dice3.Roll();
             Console.WriteLine(dice3.Number);
             dice3 = new Dice2();
-            dice2.Roll();
+            dice3.Roll();
             Console.WriteLine(dice3.Number);
 
 
@@ -59,7 +57,7 @@ namespace Day4
 
     /* (2) This piece of code would usually be placed in a separate file, like 
      * Dice.cs
-     */    
+     */
     class Dice
 
     // (3) This part of the code is only accessible within Dice.
@@ -72,7 +70,7 @@ namespace Day4
         public int Number1; /* (5) There is also the 'internal' modifier/
                              * property, which makes the variable/method 
                              * callable within the same project.
-                             */                            
+                             */
 
         public int Number2;
 
@@ -93,7 +91,6 @@ namespace Day4
     {
         public int Number;
         private Random dice = new Random();
-
         public void Roll()
         {
             Number = dice.Next(1, 7);
