@@ -1,7 +1,8 @@
 using System;
-namespace Day2
+namespace ClassExamples
 {
     class Exercise1
+
     {
         static void Main(string[] args)
         {
@@ -15,8 +16,7 @@ namespace Day2
             while (Answer <= 0 || Answer >= 150)
             {
                 Console.WriteLine("Wrong input. Please try again: ");
-
-                // No need to define type for Answer again (int Answer produces error)
+          // No need to define type for Answer again (int Answer produces error)
                 Answer = int.Parse(Console.ReadLine());
             }
 
@@ -26,8 +26,6 @@ namespace Day2
                 Console.WriteLine("You're underage");
             else
                 Console.WriteLine("You're a young adult");
-            
-            //Console.Readkey();
         }
 
 
@@ -41,15 +39,14 @@ namespace Day2
             static void Main(string[] args)
             {
                 // Ask for two numbers
-                Console.WriteLine("Please insert a number:");
+                Console.WriteLine("Please input two numbers:");
                 int one = int.Parse(Console.ReadLine());
-                Console.WriteLine("Please insert a second number:");
                 int two = int.Parse(Console.ReadLine());
 
                 // Initialize two booleans
                 bool bool1, bool2;
 
-                // Generate random booleans (this is my code we didnt do this in class)
+                // Generate booleans
                 Random rand = new Random();
                 int random = rand.Next(0, 1);
                 if (random == 1)
@@ -63,11 +60,14 @@ namespace Day2
                     bool2 = false;
 
                 // Outputs for exercise
-                if (!(bool1 || bool2)) /* If both are false (i.e. neither [not one or the other] is true)
-                                        * We can also write this as (!bool1 && !bool2)
+                if (!(bool1 || bool2)) /* If both are false (i.e. neither [not 
+                                        * one or the other] is true)We can also
+                                        * write this as (!bool1 && !bool2)
                                         */
                     Console.WriteLine(one + two);
-                if (!(bool1 && bool2)) // If at least one is false (if they are not true at the same time)
+                if (!(bool1 && bool2)) /* If at least one is false (if they are 
+                                        * not true at the same time)
+                                        */                                       
                     Console.WriteLine(one - two);
                 if (!bool1 && one > 5)
                     Console.WriteLine(one * two);
