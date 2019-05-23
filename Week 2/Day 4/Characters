@@ -1,0 +1,18 @@
+using System;
+namespace Day4
+{
+    class Characters
+    {
+        static void Main(string[] args)
+        {
+            // We use single '' to render characters. Strings are arrays of characters
+            char char1 = 'a';
+
+            // Every character has a corresponding integer value, depending on encoding
+            Console.WriteLine((int)char1); // Prints out 97
+
+            // Likewise, we can cast an integer into a character
+            Console.WriteLine((char)97); // Prints out 'a'.
+        }
+    }
+}
