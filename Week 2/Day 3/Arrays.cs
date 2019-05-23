@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Day3
 {
     class Arrays
