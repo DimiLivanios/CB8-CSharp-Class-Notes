@@ -12,7 +12,7 @@ namespace Day4
             int int2 = 2;
             string message = int1 == int2
                 ? $"{int1} and {int2} are equal" /* ? is a ternary operator.
-                                                  * Translates to "then" (implication
+                                                  * Translates to "then" (implication)
                                                   * to the condition int1 == int2
                                                   */
                 : $"{int1} and {int2} are not equal."; // : translates to "otherwise"
