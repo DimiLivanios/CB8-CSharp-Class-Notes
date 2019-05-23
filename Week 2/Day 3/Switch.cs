@@ -18,7 +18,7 @@ namespace Day3
              * We can write
              */
 
-             switch (number)
+            switch (number)
             {
                 case 1:
                     Console.WriteLine("Monday");
@@ -71,8 +71,10 @@ namespace Day3
                 default:
                     Console.WriteLine("Wrong input");
                     break;
+
             }
-                    //Console.Readkey()
+
+            //Console.ReadKey();
         }
     }
 }
