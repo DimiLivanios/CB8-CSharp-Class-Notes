@@ -1,17 +1,16 @@
 using System;
 namespace Day4
 {
+    /* (1) A class is a "template" for an object which is called using 
+     * the 'new' function, which in turn produces an object of that 
+     * template. This allows us to modularize code (break it into 
+     * smaller, more compact pieces). Thus, to use a class created 
+     * elsewhere, we call it in here.
+     */
     class Classes
     {
         static void Main(string[] args)
         {
-            /* (1) A class is a "template" for an object which is called using 
-             * the 'new' function, which in turn produces an object of that 
-             * template. This allows us to modularize code (break it into 
-             * smaller, more compact pieces). Thus, to use a class created 
-             * elsewhere, we call it in here.
-             */
-
             Dice dice1 = new Dice();
             Console.WriteLine(dice1.Number1); /* (6) As we can see, we can only 
                                                * choose the Number1 and Number2
