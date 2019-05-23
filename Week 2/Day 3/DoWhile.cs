@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Day3
 {
     class DoWhile
@@ -29,8 +29,8 @@ namespace Day3
                 answer = Console.ReadLine();
             }
 
-            /* As you will notice above, we have repetition of code. We can instead
-             * initialize an answer and avoid repetition
+            /* As you will notice above, we have repetition of code. We can 
+             * instead initialize an answer and avoid repetition
              */
 
             string answer = "n";
@@ -78,7 +78,7 @@ namespace Day3
                 answer = Console.ReadLine();
             } while (answer == "y");
             /* We can instead write while (Console.ReadLine() == "y") and delete
-             * the assignment of answer within the block and the need for initialization   
+             * the assignment of answer within the block   
              */
 
             //Console.ReadKey()
