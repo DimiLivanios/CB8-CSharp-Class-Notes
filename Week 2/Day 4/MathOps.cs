@@ -13,9 +13,10 @@ namespace Day4
 
             // Float in .NET is an alias for a data type called Single
             string String = "3.14";
+            
+            // The below two functions are equivalent           
             float pi2 = float.Parse(String);
             float pi3 = Convert.ToSingle(String);
-
         }
     }
 }
