@@ -16,6 +16,7 @@ namespace Day4
                                                   * to the condition int1 == int2
                                                   */
                 : $"{int1} and {int2} are not equal."; // : translates to "otherwise"
+            // Note that ternary operators do not work for more than two cases.
           }
     }
 }
