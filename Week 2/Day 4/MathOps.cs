@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Day4
 {
-    class MathOperations
+    class MathOps
     {
         static void Main(string[] args)
         {
