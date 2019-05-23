@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Day4
 {
     class Conditionals
@@ -12,11 +12,15 @@ namespace Day4
             int int2 = 2;
             string message = int1 == int2
                 ? $"{int1} and {int2} are equal" /* ? is a ternary operator.
-                                                  * Translates to "then" (implication)
-                                                  * to the condition int1 == int2
+                                                  * Translates to "then" 
+                                                  * (implication) to the 
+                                                  * condition int1 == int2
                                                   */
-                : $"{int1} and {int2} are not equal."; // : translates to "otherwise"
-            // Note that ternary operators do not work for more than two cases.
+
+                // ':' translates to "otherwise"
+                : $"{int1} and {int2} are not equal.";
+                
+            //Console.ReadKey();                                                                                                     
         }
     }
 }
